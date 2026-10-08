@@ -51,19 +51,19 @@ I re-ran the city count and the duplicate check after cleaning to confirm the fi
 
 ## ❓ Questions Answered
 
-| Part | # | Question | SQL techniques |
-|---|---|---|---|
-| | Q1 | How many rows are in `trips`? | `COUNT(*)` |
-| | Q2 | The 5 longest completed trips | `WHERE`, `ORDER BY`, `LIMIT` |
-| | Q3 | Trips per city (and why the result looked wrong) | `GROUP BY` |
-| | Q4a | Find duplicate trips | `GROUP BY` + `HAVING`, `MIN`/`MAX` |
-| | Q4b | Completed trips with a missing fare | `IS NULL` |
-| | Q5 | Fix city names and delete duplicates | `UPDATE`, `TRIM`, `DELETE` with subquery |
-| | Q6 | Revenue, trip count and average fare by city | `SUM`, `AVG`, `ROUND` |
-| | Q7 | Revenue by month | `DATE_FORMAT` |
-| | Q8 | Revenue by vehicle type | `INNER JOIN` |
-| | Q9 | Customers who never booked a trip | `LEFT JOIN` + `IS NULL` |
-| | Q10 | Top 3 customers by total spend | `JOIN`, `SUM`, `ORDER BY`, `LIMIT` |
+| # | Question | SQL techniques |
+|---|---|---|
+| Q1 | How many rows are in `trips`? | `COUNT(*)` |
+| Q2 | The 5 longest completed trips | `WHERE`, `ORDER BY`, `LIMIT` |
+| Q3 | Trips per city (and why the result looked wrong) | `GROUP BY` |
+| Q4a | Find duplicate trips | `GROUP BY` + `HAVING`, `MIN`/`MAX` |
+| Q4b | Completed trips with a missing fare | `IS NULL` |
+| Q5 | Fix city names and delete duplicates | `UPDATE`, `TRIM`, `DELETE` with subquery |
+| Q6 | Revenue, trip count and average fare by city | `SUM`, `AVG`, `ROUND` |
+| Q7 | Revenue by month | `DATE_FORMAT` |
+| Q8 | Revenue by vehicle type | `INNER JOIN` |
+| Q9 | Customers who never booked a trip | `LEFT JOIN` + `IS NULL` |
+| Q10 | Top 3 customers by total spend | `JOIN`, `SUM`, `ORDER BY`, `LIMIT` |
 
 ---
 
@@ -78,10 +78,8 @@ I re-ran the city count and the duplicate check after cleaning to confirm the fi
 
 ---
 🛠️ Tools Used
-Tool	Purpose
-MySQL	Database and query language
-MySQL Workbench	Writing and running the SQL script
-GitHub	Version control and portfolio
+- MySQL	Database and query language
+- MySQL Workbench	Writing and running the SQL script
 
 ---
 
