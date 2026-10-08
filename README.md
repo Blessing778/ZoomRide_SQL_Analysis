@@ -6,11 +6,11 @@ ZoomRide is a ride-hailing company operating in multiple African cities. This pr
 
 ---
 
-##  ## 🎯 Business Problem
+## 🎯 Business Problem
 The ZoomRide manager wants answers to three questions:
-1.Which city should ZoomRide invest in next?
-2.Which vehicle type is most profitable? 
-3.What was the best performing month?
+- 1.Which city should ZoomRide invest in next?
+- 2.Which vehicle type is most profitable? 
+- 3.What was the best performing month?
 
 The data was deliberately messy: misspelled city names, trips saved twice, and missing fares. The job was to explore the data, clean it, answer the questions with SQL, and send the manager a short recommendation.
 > **Money rule:** only trips with `status = 'Completed'` count as revenue. Cancelled trips earn nothing.
